@@ -1,0 +1,112 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: white;
+    line-height: 1.6;
+    overflow-x: hidden;
+  }
+  
+  header {
+    padding: 1rem 2rem;
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Navigation */
+  nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    margin: 0 1rem;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #1abc9c;
+  }
+  
+  /* Section Backgrounds */
+  .header-bg {
+    background: url('header-placeholder.jpg') no-repeat center center/cover;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .home-bg, .corp-health-bg, .wildfire-bg, .moisture-bg, .login-bg {
+    padding: 2rem 1rem;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 2rem; /* Adding margin between sections */
+  }
+  
+  .home-bg {
+    background: url('home-placeholder.jpg') no-repeat center center/cover;
+  }
+  
+  .corp-health-bg {
+    background: url('corp-health-placeholder.jpg') no-repeat center center/cover;
+  }
+  
+  .wildfire-bg {
+    background: url('wildfire-placeholder.jpg') no-repeat center center/cover;
+  }
+  
+  .moisture-bg {
+    background: url('moisture-placeholder.jpg') no-repeat center center/cover;
+  }
+  
+  .login-bg {
+    background: url('login-placeholder.jpg') no-repeat center center/cover;
+  }
+  
+  /* Canvas (chart) styling */
+  canvas {
+    width: 100% !important; /* Ensure the charts take up full width */
+    height: 400px;  /* Reduced height to give a better fit */
+    max-width: 800px;  /* Limit the max width for a better layout */
+    margin: 20px auto; /* Center the charts and add space around */
+  }
+  
+  /* Buttons */
+  .action-btn {
+    background: #1abc9c;
+    color: white;
+    border: none;
+    padding: 0.5rem 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .action-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 10px rgba(26, 188, 156, 0.6);
+  }
+  
+  /* Footer */
+  .footer-bg {
+    padding: 1rem;
+    text-align: center;
+    background-color: #1e1e1e;
+    color: #aaa;
+  }
+  
